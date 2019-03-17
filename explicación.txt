@@ -1,0 +1,5 @@
+El modelo toma la imagen, la reescala y la convierte en una matriz de 3 dimensiones, con dimensiones 100x100x3 (ancho y largo en pixeles, y las 3 componentes RGB).
+
+La matriz es entonces enviada a una red neuronal creada con el paquete "keras" de R, previamente entrenada para predecir si en la imagen se ve una persona con gafas oscuras.
+
+El entrenamiento se realizó sobre un conjunto de 420 imágenes, haciendo 300 pasos sobre el cunjunto de datos.

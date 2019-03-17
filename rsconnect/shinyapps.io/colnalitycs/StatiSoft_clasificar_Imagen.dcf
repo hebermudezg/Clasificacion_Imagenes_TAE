@@ -1,0 +1,12 @@
+name: StatiSoft_clasificar_Imagen
+title: StatiSoft_clasificar_Imagen
+username:
+account: colnalitycs
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 742723
+bundleId: 1946056
+url: https://colnalitycs.shinyapps.io/StatiSoft_clasificar_Imagen/
+when: 1552857811.83535
+asMultiple: FALSE
+asStatic: FALSE

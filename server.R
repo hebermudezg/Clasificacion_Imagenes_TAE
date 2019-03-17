@@ -32,7 +32,7 @@ shinyServer(function(input, output, session) {
     
     #Probabilidad de que use gafas
     p <- model %>% predict_proba(prueba())
-    paste(round(p[1,2]*100, 2),'%')
+    paste(round(p[1,2]*100,2),'%')
   })
   
   output$viz2 <- renderText({
@@ -45,7 +45,7 @@ shinyServer(function(input, output, session) {
     if(clase==1){
       a <- "La persona tiene gafas de sol"
     }else{
-      a <- "La persona NO tiene gafas de sol"
+      a <- "La persona no tiene gafas de sol"
     }
     print(a)
   })

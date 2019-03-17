@@ -5,8 +5,8 @@ account: colnalitycs
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 742723
-bundleId: 1946056
+bundleId: 1946164
 url: https://colnalitycs.shinyapps.io/StatiSoft_clasificar_Imagen/
-when: 1552857811.83535
+when: 1552861310.99862
 asMultiple: FALSE
 asStatic: FALSE

@@ -121,10 +121,10 @@ prob <- model %>% predict_proba(test)
 cbind(prob, Predicted_class = pred, Actual = testy)
 
 # Save model
-save_model_hdf5(model, "model")
+#save_model_hdf5(model, "model")
 
 # Load model
-model <- load_model_hdf5("model")
+#model <- load_model_hdf5("model")
 
 # Predicciones sobre una imagen
 prueba1 <- array(combine(resize(toRGB(as_EBImage(image_read(pic1[44]))),100,100)), dim = c(1,20,20,3))

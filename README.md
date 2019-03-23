@@ -20,5 +20,6 @@ Metodologı́a)
 
 NOTA 1: El código del este trabajo se puede consultar en el siguiente repositorio
 https://github.com/hebermudezg/TAE_Clasificacion_Imagenes
+
 NOTA 2: La aplicación shiny se puede consultar en:
 https://colnalitycs.shinyapps.io/StatiSoft_clasificar_Imagen/
